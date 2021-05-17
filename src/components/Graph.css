@@ -22,9 +22,9 @@
     color:white;
   } */
 .Legacy-journey{
-   
-    clear: right;
+    width: 60%;
     float: left;
+    clear: right;
     height: 48vh;
   
 }
@@ -76,7 +76,7 @@ h8{
     margin-left: 5.5rem;
 }
 .graph1{
-    width: 100%;
+    width: 50%;
     margin-top: 2rem;
     height: 42vh;
 }

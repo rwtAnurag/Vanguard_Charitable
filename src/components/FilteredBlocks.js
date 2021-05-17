@@ -1,6 +1,6 @@
 
 import card1 from "../card-1.jpg";
-import filtericon from "../filterIcon.png";
+// import filtericon from "../filterIcon.png";
 import './FilteredBlocks.css';
 import 'bootstrap/dist/css/bootstrap.css';
 const FilteredBlocks = () =>{

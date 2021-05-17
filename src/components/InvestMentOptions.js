@@ -12,29 +12,29 @@ const InvestMentOptions = ()=>{
               </div>
               <div className="graphs">
                   <div className="img1">
-                      <img  src={graphc}></img><br/>
+                      <img alt="ab" src={graphc}></img><br/>
                       <h7 >Short Term Bond <br/> <h7 className="rate">$13.56+1.50(+12.44%)</h7></h7>
 
                   </div>
                   <div className="d-grid img1">
-                        <img  src={graphb}></img><br/>
+                        <img alt="ab" src={graphb}></img><br/>
                         <h7 >Total Bond<br/> <h7 className="rate">$16.23-1.45(-820%)</h7></h7>
                   </div>
                   <div  className="img1">
-                        <img src={grapha}></img><br/>
+                        <img alt="ab" src={grapha}></img><br/>
                         <h7>Moderate Growth <br/> <h7 className="rate">$39.21+2.78(+7.63%)</h7></h7>
                   </div>
                   <div className="img1">
-                        <img  src={graphc}></img><br/>
+                        <img alt="ab" src={graphc}></img><br/>
                         <h7>Total Equity <br/> <h7 className="rate">$23.54+0.28(+2.11%)</h7></h7>
                   </div>
                   <div className="img1">
-                        <img  src={grapha}></img><br/>
+                        <img alt="ab" src={grapha}></img><br/>
                         <h7>European Stock <br/> <h7 className="rate">$16.32-1.67(+9.28%)</h7></h7>
                         
                   </div>
                    <div className="img1" >
-                        <img src={graphc}></img><br/>
+                        <img alt="ab" src={graphc}></img><br/>
                         <h7>Money Market <br/> <h7 className="rate">$11.20-0.38(-3.28%)</h7></h7>
                    </div>
                  </div>

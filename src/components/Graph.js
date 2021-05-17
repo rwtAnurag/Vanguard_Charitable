@@ -4,18 +4,19 @@ import graph1 from "../graph1.png";
 const Graph = () =>{
           return(
               <>
-                 <div className="container">
+                 <div className="container ">
                         <div className="inside-upper-header  rounded-top">
                            <h5 className="title1">The Stanton Children's Education fund</h5>
                           <span >The standard VCEP Speed Fund</span>
                         </div>
-                        <div className="inside-header pt-4">
+                        <div className="inside-header  pt-4">
                            <div>
                                  <div className="Legacy-journey  pl-3 mt-1">
                                     <div className="content d-flex">
                                        <div  style={{ width:"50%"}}><span>Available Balance </span><br/><span style={{color:"skyblue",fontSize: "1.5rem"}}>$ 500,000</span></div>
-                                       <div  style={{ width:"50%"}} className="float-right"><span>Current Balance</span><br/><span style={{color:"skyblue",fontSize: "1.5rem"}}>$ 536,000</span></div>
+                                       <div  style={{ width:"50%"}} className="float-left"><span>Current Balance</span><br/><span style={{color:"skyblue",fontSize: "1.5rem"}}>$ 536,000</span></div>
                                     </div>
+                                    <div>
                                     <h4 style={{ fontSize:"1.5rem"}}>Legacy Journey</h4>
                                     <h7>Balance over Time</h7>
                                     <h8 >Date range</h8>
@@ -28,7 +29,8 @@ const Graph = () =>{
                                     <h9>1Y</h9>
                                     <h9>5Y</h9>
                                     <h9>MAX</h9>
-                                    <img src={graph1} className="graph1"></img>
+                                    </div>
+                                    <img alt ="ab" src={graph1} className="graph1"></img>
                                  </div>
                                  <div className="Activity1">
                                     <div className="content d-flex">
