@@ -1,0 +1,148 @@
+.inside-upper-header{
+    color:white;
+    padding-top:1rem;
+    padding-left:1rem;
+    padding-bottom:1rem;
+    align-items: center;
+    margin-top: 2.5rem;
+    background-color: rgb(77, 74, 74)
+    
+}
+.inside-header{
+    height: 510px;
+    border-style: outset;
+    position: relative;
+    background-color: white
+}
+
+/* .title1 {
+    position: relative;
+    top: 6.9rem;
+    margin-left:20%;
+    color:white;
+  } */
+.Legacy-journey{
+   
+    clear: right;
+    float: left;
+    height: 48vh;
+  
+}
+.Activity1{
+    width: 40%;
+    float: right;
+   
+}
+.information{
+    margin-top: 2rem;
+    border: 1px solid black;
+}
+.value{
+    font-size: 12px;
+    width: 5rem;
+}
+.date-wire{
+    position: relative;
+    font-size: 12px;
+    left: 14rem;
+    color: skyblue;
+}
+.Activity-value-Wire{
+    color: skyblue;
+}
+.Activity-value-Grant{
+    color: rgb(233, 174, 64)
+}
+.date-grant{
+    position: relative;
+    font-size: 12px;
+    left: 14rem;
+    color: rgb(233, 174, 64)
+}
+.date{
+    position: relative;
+    font-size: 12px;
+    left: 14rem;
+   
+}
+h9{
+    font-size: 7.5px;
+    margin: 0.5rem;
+}
+h8{
+    font-size: 7.5px;
+    position: relative;
+    top: 0.2rem;
+    margin-left: 5.5rem;
+}
+.graph1{
+    width: 100%;
+    margin-top: 2rem;
+    height: 42vh;
+}
+@media(min-width:920px){
+.heading{
+    position: relative;
+    top: 5.8rem;
+    left: 16.5rem;
+    color: white;
+    font-size: 12px;
+}
+}
+@media(max-width:920px){
+    .graph1{
+        width:100%;
+        margin-top: 2rem;
+        height: 42vh;
+    }
+    .Legacy-journey{
+        width: 100%;
+        clear: right;
+        float: left;
+        height: 48vh;
+        justify-content: center;
+    }
+    .Activity1{
+        width: 100%;
+        margin-top: 12rem;
+       
+    }
+    .title1 {
+       color: rgb(241, 241, 231);;
+     } 
+      
+}
+@media(max-width: 920px) {
+    /* For mobile phones: */
+    .inside-header{
+        display: grid;
+        grid-template-columns: auto auto;
+        /* margin: auto;
+        height: 510px;
+        border-style: outset;
+        position: relative;
+        background-color: white */
+    }
+    .available-balance {
+        position:relative;
+        right: 7rem;
+    }
+    .current-balance{
+        position:relative;
+        font-size: 1.5rem;
+        bottom: 0.7rem;
+        right: 4remrem;
+        color: skyblue
+        
+    }
+    .date,.date-wire,.date-grant{
+        position: relative;
+        font-size: 12px;
+        left: 10rem;
+       
+    }
+    
+   
+  }
+  
+

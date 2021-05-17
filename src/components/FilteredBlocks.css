@@ -1,0 +1,64 @@
+
+.card-1{
+    height: 130.8px;
+  
+}
+.a1,.a2{
+    width: 347.9px;
+}
+
+.b1,.b2{
+     width: 347.9px;   
+}
+.c1,.c2{
+    width: 347.9px;
+   
+}
+.block{
+    display: grid;
+}
+.a1_1{
+    height:3rem;
+    background-color: #72d69b
+}
+.a1_2{
+    height:3rem;
+    background-color:  #f2ab8f;
+}
+
+.recomend-grant{
+    height: 3rem;
+    width: 50%;
+    background-color: skyblue;
+    border: none;
+    color: white;
+}
+.visit-website{
+    border: none;
+    width: 50%;
+    height: 3rem;
+}
+@media(min-width: 920px){
+  .block2{ 
+    margin-left: 3.1rem;
+    margin-right: 3.1rem;
+   }
+}
+@media(max-width: 920px) {
+        /* For mobile phones: */
+        .Blocks{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .a1,.a2,.c1,.c2{
+            margin-left: 0.3rem;
+            margin-right:0.5rem;
+            width: 100%;
+        }
+        .b1,.b2{
+            margin-left: 0.3rem;
+            margin-right:0.5rem;
+            width: 100%;
+        }
+}

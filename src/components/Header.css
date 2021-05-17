@@ -1,0 +1,156 @@
+
+.Header{
+    height: 528.3px;
+}
+
+.menubutton{
+    border: none;
+    background-color:inherit;
+    color: aliceblue;
+    float: right;
+}
+.logoImage{
+    margin-top:3rem;
+    margin-left: 12rem;
+}
+
+/* .logo{
+    position: relative;
+    top: 1rem;
+    margin-left: 12rem;
+    margin-top: 1.3rem;
+    height: 2.6rem;
+} */
+/* @media(min-width:920px) {
+    .menuIcon{
+        display: none;
+        color: white;
+        
+    }
+    .title{
+        position: relative;
+        top:7.3rem;
+        right: 4.3rem;
+        color: white;
+    }
+    
+} */
+/* @media(max-width:920px){
+    .menuIcon{
+       display: block;
+       color: white;
+       
+      
+    }
+    .menu{
+        display: none;
+    }  
+    .logo{
+        float: left;
+        margin-left: 0.1rem;
+        margin-top: 1.3rem;
+        height: 2.6rem;
+    }
+    .title{
+        position: relative;
+        right: 5.3rem;
+        top:7.6rem;
+        font-size: 10px;
+        color: white;
+    }
+}
+.balance{
+    position: relative;
+    padding-top: 2rem;
+    
+} */
+/* .menu{
+    height: 0.6rem;
+    margin-right: 15rem;
+} */
+/* .logoutbtn{
+   margin-top: 3.6rem;
+} */
+
+/* p{
+   position: relative;
+   size: 12px;
+   left: 0rem;
+   top: 9rem;
+   color: white;
+} */
+.menuIcon{
+   visibility: hidden;
+}
+nav::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+nav ul{
+    float: right;
+    list-style: none;
+    margin-right:40px;
+    position: relative;
+}
+nav ul li {
+    float:left;
+    display: inline-block;
+    margin:0 15px;
+    margin-top: 2rem;;
+}
+nav ul li a{
+    color: white;
+    padding: 0.4rem;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: thistle;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #33ffff,0 0 5px #66ffff;
+}
+
+
+@media all and (max-width:636px){
+   
+   nav ul{
+    float: right;
+    
+   }
+   nav ul  li a{
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #33ffff,0 0 5px #66ffff;
+   }
+   nav ul li{
+    display: block;
+    width: 70%;
+    margin-left: 30%;
+    margin-right:2rem;
+   
+    }
+    .logoImage{
+        margin-top:3rem;
+        margin-left: 1rem;
+    }
+    .menuIcon{
+   visibility: visible;
+    color:white;
+    position: absolute;
+    top: 3rem;
+    right: 40px;
+   
+    font-size: 25px;
+    cursor: pointer;
+ }
+}
+@media (min-width:636px) and (max-width:920px){
+    .logoImage{
+        margin-top:3rem;
+        margin-left: 1rem;
+    }
+}
+
+
+ 
