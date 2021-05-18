@@ -5,37 +5,48 @@ import background from "../malaysia-floods-l.jpg";
 import Graph from "./Graph.js";
 import logo from "../vanguard-logo.png";
 import MenuIcon from '@material-ui/icons/Menu';
-import { useState} from 'react';
+// import { useEffect, useState} from 'react';
 // import { Opacity } from '@material-ui/icons';
 
-const Header = () =>{
-    const [display,setDisplay]= useState("");
+const Header = ({active,setActive}) =>{
+    // const [display,setDisplay]= useState("");
+    // const [display2,setDisplay2]= useState("block");
     // useEffect(() => {
     //    if(display)
     //   });
-    const handleClick = ()=>{
-        if(display==='none')
-           setDisplay("block");
-        else
-           setDisplay("none");
-    }
+    // const handleClick = ()=>{
+    //     if(active){
+    //         setActive(false);
+    //     }
+    //     else{
+    //         setActive(true);
+    //     }
+       
+    // }
+    // useEffect(() => {
+    //     if(display==='none'){
+
+    //         setDisplay("block");
+    //         setDisplay2("none");}
+    //      else{
+    //         setDisplay("none");
+    //         setDisplay2("block");}
+    //   },[active]);
     return (
         <>
          <div className="Header" style={{ backgroundImage: `url(${background})`}} >
              <nav>
                 <img alt ="ab" className="logoImage" src={logo}></img> 
-                
-                     <MenuIcon className="menuIcon"  onClick={handleClick} fontSize="large"/>
-             
-             {/* <span className="title">Welcome Elizabeth Standon</span> */}
-               <ul style={{display:display}}>
+                <MenuIcon className="menuIcon" fontSize="large"/>
+               <span className="title3"><span style={{opacity:"0.6"}}>Welcome</span> Elizabeth Standon</span>
+               <ul >
                 <label class="show">
-                 <li><a href="ab">Account</a></li>
-                 <li><a href="ab">Grant</a></li>
-                 <li><a href="ab">Contribution</a></li>
-                 <li><a href="ab">Report</a></li>
-                 <li><a href="ab">Log out</a></li>
-                 </label> 
+                    <li><a href="">Account</a></li>
+                    <li><a href="">Grant</a></li>
+                    <li><a href="">Contribution</a></li>
+                    <li><a href="">Report</a></li>
+                    <li><a href="">Log out</a></li>
+                </label> 
                </ul>
                </nav>
              {/* <div className="menu mt-3">
@@ -46,7 +57,7 @@ const Header = () =>{
                 <button className="menubutton ml-3 mt-5">Account</button>
              </div>  */}
             
-             <div className="Graph">
+             <div  className="Graph">
                  <Graph/> 
              </div>        
                 

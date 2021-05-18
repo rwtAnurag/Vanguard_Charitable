@@ -6,7 +6,8 @@ import graphc from "../graph-c.png";
 const InvestMentOptions = ()=>{
     return(
         <>
-          <div className="InvestMentOptions container">
+         <div>
+          <div className="InvestMentOptions  container">
               <div className="d-flex"><h2 className="ml-5">Investment Options</h2>
                <h4 className="mt-3 ml-2">(Invested in 6 Options)</h4>
               </div>
@@ -42,10 +43,12 @@ const InvestMentOptions = ()=>{
             </div>
             <div className="filter-block d-flex container mt-4 p-auto">
                  <p className="grant-recommendation">Grant Recommendation</p>
+                 <div className="filter-buttons">
                  <button className="filter-button ml-2"> Filter by category</button>
                  <button className="filter-button ml-2">Find a charity</button>
+                 </div>
             </div>
-            
+            </div>  
         </>
     );
 }

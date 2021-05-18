@@ -1,64 +1,119 @@
 
 .card-1{
-    height: 130.8px;
-  
-}
-.a1,.a2{
-    width: 347.9px;
+    height: 159..2px;
+    background-blend-mode:overlay;
+    background-color: rgb(56, 52, 52);
+
 }
 
+.a1,.a2{
+    position: relative;
+    top:"-25px";
+    border-radius: 0.5rem;
+    width: 347.9px;
+    padding-bottom: 0.1rem;
+    background-color:white;
+}
+
+
 .b1,.b2{
-     width: 347.9px;   
+     width: 347.9px; 
+     border-radius: 0.5rem;;
+     background-color:white;  
+     padding-bottom: 0.1rem;
 }
 .c1,.c2{
+    border-radius: 0.5rem;;
     width: 347.9px;
-   
+    background-color:white;
+    padding-bottom: 0.1rem;
 }
 .block{
     display: grid;
 }
 .a1_1{
-    height:3rem;
+    height:4rem;
     background-color: #72d69b
 }
 .a1_2{
-    height:3rem;
+    height:4rem;
     background-color:  #f2ab8f;
 }
-
+.summary{
+    height: 1.8rem;
+    width: 50%;
+    background-color: rgb(182, 176, 176);
+    border: none;
+    color: white;
+    position: relative;
+    bottom: 1rem;
+}
+.operation{
+    height: 1.8rem;
+    width: 50%;
+    background-color: white;
+    border: none;
+    color: black;
+    position: relative;
+    bottom: 1rem;
+    border:1px solid rgb(182, 176, 176);;
+}
 .recomend-grant{
     height: 3rem;
     width: 50%;
     background-color: skyblue;
     border: none;
     color: white;
+    border-bottom-left-radius:0.4rem ;
 }
 .visit-website{
     border: none;
     width: 50%;
     height: 3rem;
+    border-bottom-right-radius:0.4rem ;
 }
+.grant-cycle{
+    font-size: 0.5rem;;
+ }
+ .Evry-year{
+    font-size: 0.8rem;
+    text-decoration: underline;
+ }
+
 @media(min-width: 920px){
   .block2{ 
     margin-left: 3.1rem;
     margin-right: 3.1rem;
    }
+   
 }
 @media(max-width: 920px) {
         /* For mobile phones: */
         .Blocks{
             display: flex;
             flex-direction: column;
+             width: 90%;
             justify-content: center;
         }
         .a1,.a2,.c1,.c2{
-            margin-left: 0.3rem;
             margin-right:0.5rem;
             width: 100%;
         }
-        .b1,.b2{
-            margin-left: 0.3rem;
+        .b1,.b2{      
             margin-right:0.5rem;
             width: 100%;
         }
+}
+.valueSlider2{
+    float: right;
+    margin-right: 2rem;
+    width: 30%;
+    color: white;
+    margin-top: 1rem;;
+   
+}
+.valueSlider1{
+    width: 70%;
+    color: white;
+   
 }

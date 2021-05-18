@@ -9,8 +9,7 @@
     
 }
 .inside-header{
-    height: 510px;
-    border-style: outset;
+    height: 610px;
     position: relative;
     background-color: white
 }
@@ -21,17 +20,14 @@
     margin-left:20%;
     color:white;
   } */
-.Legacy-journey{
-    width: 60%;
-    float: left;
-    clear: right;
-    height: 48vh;
-  
-}
+
 .Activity1{
     width: 40%;
     float: right;
-   
+    margin-top: 1.3rem;
+    background-color: white;
+    padding-bottom: 0.6rem;
+    border-radius: 0.4rem;;
 }
 .information{
     margin-top: 2rem;
@@ -65,21 +61,20 @@
     left: 14rem;
    
 }
-h9{
+.diamention{
     font-size: 7.5px;
     margin: 0.5rem;
 }
-h8{
+.dateRange{
     font-size: 7.5px;
-    position: relative;
-    top: 0.2rem;
-    margin-left: 5.5rem;
+    margin-left: 15.9rem;
 }
 .graph1{
-    width: 50%;
+    width: 100%;
     margin-top: 2rem;
     height: 42vh;
 }
+
 @media(min-width:920px){
 .heading{
     position: relative;
@@ -88,6 +83,25 @@ h8{
     color: white;
     font-size: 12px;
 }
+.availableBalnce,.addButton,.Legacy-journey,.title1,.title2{
+   
+    margin-left: 3rem;   
+    
+}
+.Legacy-journey{
+    width: 50%;
+    float: left;
+    clear: right;
+    background-color: white;
+    padding: 1rem;
+    padding-bottom: 2rem;
+   
+}
+.content{
+    width: 60%;
+    display: none;
+}
+
 }
 @media(max-width:920px){
     .graph1{
@@ -95,8 +109,24 @@ h8{
         margin-top: 2rem;
         height: 42vh;
     }
-    .Legacy-journey{
+    .content1{
+        display: none;
+    }
+    .addButton{
+       margin-left: 2rem;
+    }
+    .content{
         width: 100%;
+        padding-left: 1rem;
+    }
+    .dateRange{
+        margin-left:5%;
+    }
+    .balance{
+        font-size:10px;
+    }
+    .Legacy-journey{
+        width: 90%;
         clear: right;
         float: left;
         height: 48vh;
@@ -112,8 +142,19 @@ h8{
      } 
       
 }
+
 @media(max-width: 920px) {
     /* For mobile phones: */
+    .availableBalnce{
+        font-size: 10px;
+        margin-left: 1rem;   
+        
+    }
+    .currentBalance{
+        width: 100%;
+        font-size: 10px;
+        float:right;
+    }
     .inside-header{
         display: grid;
         grid-template-columns: auto auto;
@@ -126,6 +167,9 @@ h8{
     .available-balance {
         position:relative;
         right: 7rem;
+    }
+    .diamention{
+        margin: 1%;
     }
     .current-balance{
         position:relative;
