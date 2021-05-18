@@ -159,7 +159,7 @@ const FilteredBlocks = () =>{
                         <div className="card-1 rounded-top" style={{ backgroundImage: `url(${card4})`,backgroundSize: "cover"}}>
                             <div className="d-flex">
                                 <div style={{ width:"60%"}}>
-                                <p className="pt-2" style={{color:"yellow",position:"relative",left:"1rem"}}><img style={{ height:"30px",width:"30px"}} src={HE}></img> Education</p>
+                                <p className="pt-2" style={{color:"yellow",position:"relative",left:"1rem"}}><img alt="AB" style={{ height:"30px",width:"30px"}} src={HE}></img> Education</p>
                                 </div>
                                 <div className="mt-2">
                                     <TwitterIcon style={{ color: "white",margin:"5px",height:"15px"}}/>
@@ -225,7 +225,7 @@ const FilteredBlocks = () =>{
                     <div className="card-1 rounded-top" style={{ backgroundImage: `url(${card5})`,backgroundSize: "cover"}}>
                               <div className="d-flex">
                                 <div style={{ width:"60%"}}>
-                                    <p className="pt-2" style={{ color: "yellow",position:"relative",left:"1rem"}}><img style={{ height:"30px",width:"30px"}} src={HE}></img> Education</p>
+                                    <p className="pt-2" style={{ color: "yellow",position:"relative",left:"1rem"}}><img alt="AB" style={{ height:"30px",width:"30px"}} src={HE}></img> Education</p>
                                 </div>
                                 <div className="mt-2">
                                     <TwitterIcon style={{ color: "white",margin:"5px",height:"15px"}}/>
