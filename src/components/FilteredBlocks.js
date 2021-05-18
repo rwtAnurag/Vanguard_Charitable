@@ -13,9 +13,9 @@ import PublicIcon from '@material-ui/icons/Public';
 
 // import filtericon from "../filterIcon.png";
 import './FilteredBlocks.css';
-import { withStyles, makeStyles } from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
 import 'bootstrap/dist/css/bootstrap.css';
-import { Grid, Slider } from "@material-ui/core";
+import {  Slider } from "@material-ui/core";
 const FilteredBlocks = () =>{
     const PrettoSlider = withStyles({
         root: {
@@ -67,7 +67,7 @@ const FilteredBlocks = () =>{
                               <div className="d-flex">
                                 <div style={{ width:"60%"}}>
                                     <p className="pt-2" style={{ color: "#ebb134",position:"relative",left:"1rem"}}>Education</p>
-                                    <p style={{ color: "#ebb134",position:"relative",left:"1rem",bottom:"1.8rem",color:"white"}}>$41700</p>
+                                    <p style={{ position:"relative",left:"1rem",bottom:"1.8rem",color:"white"}}>$41700</p>
                                 </div>
                                 <div className="mt-2">
                                     <TwitterIcon style={{ color: "white",margin:"3px",height:"15px"}}/>
@@ -88,7 +88,7 @@ const FilteredBlocks = () =>{
                         <div className="card-1 rounded-top" style={{ backgroundImage: `url(${loginImage})`,backgroundSize: "cover"}}>
                              <div className="d-flex">
                                 <div style={{ width:"60%"}}>
-                                <p className="pt-2" style={{ color: "orange",position:"relative",left:"1rem"}}><img style={{ height:"30px",width:"30px"}} src={HR}></img>Refugee</p>
+                                <p className="pt-2" style={{ color: "orange",position:"relative",left:"1rem"}}><img alt="ab" style={{ height:"30px",width:"30px"}} src={HR}></img>Refugee</p>
                                 </div>
                                 <div className="mt-2">
                                     <TwitterIcon style={{ color: "white",margin:"5px",height:"15px"}}/>
@@ -132,7 +132,7 @@ const FilteredBlocks = () =>{
                               <div className="d-flex">
                                 <div style={{ width:"60%"}}>
                                     <p className="pt-2" style={{ color:"orange",position:"relative",left:"1rem"}}>Refugee</p>
-                                    <p style={{ color: "#ebb134",position:"relative",left:"1rem",bottom:"1.8rem",color:"white"}}>$41700</p>
+                                    <p style={{position:"relative",left:"1rem",bottom:"1.8rem",color:"white"}}>$41700</p>
                                 </div>
                                 <div className="mt-2">
                                     <TwitterIcon style={{ color: "white",margin:"5px",height:"15px"}}/>
@@ -159,7 +159,7 @@ const FilteredBlocks = () =>{
                         <div className="card-1 rounded-top" style={{ backgroundImage: `url(${card4})`,backgroundSize: "cover"}}>
                             <div className="d-flex">
                                 <div style={{ width:"60%"}}>
-                                <p className="pt-2" style={{ color: "#ebb134",position:"relative",left:"1rem"}}><img style={{ height:"30px",width:"30px"}} src={HE}></img> Education</p>
+                                <p className="pt-2" style={{color:"yellow",position:"relative",left:"1rem"}}><img style={{ height:"30px",width:"30px"}} src={HE}></img> Education</p>
                                 </div>
                                 <div className="mt-2">
                                     <TwitterIcon style={{ color: "white",margin:"5px",height:"15px"}}/>
@@ -200,7 +200,7 @@ const FilteredBlocks = () =>{
                               <div className="d-flex">
                                 <div style={{ width:"60%"}}>
                                    <p className="pt-2" style={{ color: "#ebb134",position:"relative",left:"1rem"}}>Education</p>
-                                   <p style={{ color: "#ebb134",position:"relative",left:"1rem",bottom:"1.8rem",color:"white"}}>$41700</p>
+                                   <p style={{position:"relative",left:"1rem",bottom:"1.8rem",color:"white"}}>$41700</p>
                                 </div>
                                 <div className="mt-2">
                                     <TwitterIcon style={{ color: "white",margin:"5px",height:"15px"}}/>
@@ -225,7 +225,7 @@ const FilteredBlocks = () =>{
                     <div className="card-1 rounded-top" style={{ backgroundImage: `url(${card5})`,backgroundSize: "cover"}}>
                               <div className="d-flex">
                                 <div style={{ width:"60%"}}>
-                                    <p className="pt-2" style={{ color: "#ebb134",position:"relative",left:"1rem"}}><img style={{ height:"30px",width:"30px"}} src={HE}></img> Education</p>
+                                    <p className="pt-2" style={{ color: "yellow",position:"relative",left:"1rem"}}><img style={{ height:"30px",width:"30px"}} src={HE}></img> Education</p>
                                 </div>
                                 <div className="mt-2">
                                     <TwitterIcon style={{ color: "white",margin:"5px",height:"15px"}}/>

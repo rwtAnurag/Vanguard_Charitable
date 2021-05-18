@@ -23,7 +23,7 @@ const Graph = () =>{
                                           <div ><span>Grant made </span><br/><span style={{color:"skyblue",fontSize: "1.5rem"}}>$ 500,000</span></div>   
                                        </div> 
                                   </div>
-                                  <button  style={{backgroundColor:"skyBlue",border:"none",border:"none",paddingLeft:"15px",paddingRight:"15px",borderRadius:"10px"}} className="addButton">Add</button>
+                                  <button  style={{backgroundColor:"skyBlue",border:"none",paddingLeft:"15px",paddingRight:"15px",borderRadius:"10px"}} className="addButton">Add</button>
                                   <hr/>
                                  <div className="Legacy-journey p-2">
                                     {/* <div className="content d-flex">
