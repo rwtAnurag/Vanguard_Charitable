@@ -8,7 +8,7 @@ const InvestMentOptions = ()=>{
         <>
          <div>
           <div className="InvestMentOptions  container">
-              <div className="d-flex"><h2 className="ml-5">Investment Options</h2>
+              <div className="d-flex"><h2 className="investMentOptions">Investment Options</h2>
                <h4 className="mt-3 ml-2">(Invested in 6 Options)</h4>
               </div>
               <div className="graphs">
