@@ -87,6 +87,9 @@ h7{
         margin-left: 2rem;
         width: 80%;
     }
+    .investMentOptions{
+        margin-left: 5rem;
+    }
     .filter-button{
         border: none;
     }
